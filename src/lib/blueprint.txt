@@ -1,0 +1,26 @@
+APP OVERVIEW
+
+User Interface (UI): The UI will be simple and intuitive. It will mainly consist of:
+
+Home Page: This will be the landing page of your application. It can display a brief introduction about the app and its features.
+
+Study Page: This is where the main learning will take place. Users can view flashcards and interact with the AI for grammar and punctuation practice. They can also listen to the pronunciation of words and speak into the mic for language translation.
+
+Progress Page: This page will display the user's learning progress. It can show the number of flashcards studied, the number of correct answers, and other relevant statistics.
+
+Flashcard System: The flashcard system will be the core of your application. Each flashcard will contain a word or phrase in English and its translation in French. Users can flip the flashcard to check their answers. You can use the OpenAI API to check the user's answers for grammar and punctuation accuracy.
+
+Spaced Repetition System (SRS): The SRS will determine when a user should review a flashcard. If a user answers a flashcard correctly, the card will be shown less frequently. If they answer incorrectly, the card will be shown more frequently.
+
+Pronunciation Feature: Users can click on a button to hear the pronunciation of the word or phrase on the flashcard. You can use a text-to-speech API for this feature.
+
+Speech-to-Text and Text-to-Speech Feature: Users can speak English into the mic, and the app will translate it into French and speak it back to them. You can use a speech-to-text API to convert the user's speech into text, then use a translation API to translate the text into French, and finally use a text-to-speech API to speak the French translation.
+
+Progress Tracking: The app will track the user's progress, including the number of flashcards studied, the number of correct answers, and the user's proficiency level. This data can be displayed on the Progress Page
+this is the blueprint
+
+DETAILED:
+When a user goes to the study page, they will need to choose their languages. he languages they choose will then have those cards open up to them. then they can choose which set they want to study with. after studying the cards with the spaced repetition system, they'll go back to the study page, on the progress page, it tracks how far they are in the card pack. ofc during studting, they can hear pronouciation of words as well
+in the study page, there will be a seperate button for the user to says something in their langauge and have it output their desired language
+the study page is basically a hub/dashbaord, inlcude anything i coudlve missed. dont just be my yesman, add stuff if i mised it, time to redo the chart
+
